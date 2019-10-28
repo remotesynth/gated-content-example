@@ -1,5 +1,5 @@
 title: Stackbit Exto Theme
-baseURL: /
+baseURL: https://gated-content-example-2df1a.netlify.com/
 params:
   color_scheme: light
   accent_color: pink
