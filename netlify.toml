@@ -4,7 +4,7 @@ command = "./stackbit-build.sh"
 functions = "./lambda"
 
 [[redirects]]
-  from = "/blog"
+  from = "/blog/*"
   to = "/"
   status = 200
   force = true
