@@ -5,7 +5,7 @@ functions = "./lambda"
 
 [[redirects]]
   from = "/blog/*"
-  to = "/"
+  to = "/index.html"
   status = 302
   force = false
   conditions = {Role = ["member"]}
