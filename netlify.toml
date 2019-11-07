@@ -2,3 +2,10 @@
 publish = "public"
 command = "./stackbit-build.sh"
 functions = "./lambda"
+
+[[redirects]]
+  from = "/blog"
+  to = "/"
+  status = 200
+  force = true
+  conditions = {Role = ["member"]}
