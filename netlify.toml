@@ -7,4 +7,4 @@ functions = "./lambda"
   from = "/blog/"
   to = "/index.html"
   status = 301
-  force = false
+  conditions = {Role = ["member"]}
