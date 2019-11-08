@@ -5,6 +5,12 @@ functions = "./lambda"
 
 [[redirects]]
 from = "/blog/*"
-to = "/blog/"
-status = 301
+to = "/blog/index.html"
+status = 200
+force = true
+conditions = {Role = ["member"]}
+[[redirects]]
+from = "/blog/*"
+to = "/index.html"
+status = 404
 force = true
