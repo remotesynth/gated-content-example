@@ -7,5 +7,4 @@ functions = "./lambda"
   from = "/portfolio/"
   to = "/index.html"
   status = 302
-  force = false
-  conditions = {role = "member"}
+  conditions = {Role = ["member"]}
