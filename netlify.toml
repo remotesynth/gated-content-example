@@ -4,8 +4,7 @@ command = "./stackbit-build.sh"
 functions = "./lambda"
 
 [[redirects]]
-  from = "/blog/*"
+  from = "/blog/"
   to = "/index.html"
-  status = 302
+  status = 301
   force = false
-  conditions = {Role = ["member"]}
